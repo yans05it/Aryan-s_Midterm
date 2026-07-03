@@ -1,0 +1,97 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Mobile Shop | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Name: Aryan Labib | ID: 2331516 -->
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Aryan<span>Mobile</span></a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Contact Us</h1>
+
+            <p>
+                If you have any questions about our mobile phones, prices, offers, delivery, or warranty,
+                you can contact Aryan Mobile Shop through this page.
+            </p>
+
+            <p>
+                Our team helps customers select the right mobile phone based on their budget and requirements.
+                We provide honest product information and friendly customer support.
+            </p>
+
+            <p>
+                Fill out the contact form below and click the submit button.
+                The button uses JavaScript onclick event handler to show a message.
+            </p>
+        </section>
+
+        <section class="section contact-section">
+            <div class="contact-info">
+                <h2>Store Information</h2>
+
+                <img src="https://placehold.co/500x250/2563eb/ffffff?text=Aryan+Mobile+Shop" alt="Mobile shop">
+
+                <p><strong>Address:</strong> Mirpur, Dhaka, Bangladesh</p>
+                <p><strong>Phone:</strong> +880 1700-000000</p>
+                <p><strong>Email:</strong> support@aryanmobile.com</p>
+
+                <div class="contact-images">
+                    <img src="https://placehold.co/220x150/059669/ffffff?text=Support" alt="Support">
+                    <img src="https://placehold.co/220x150/7c3aed/ffffff?text=Warranty" alt="Warranty">
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <h2>Send Message</h2>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="phone">Interested Phone</label>
+                <select id="phone">
+                    <option>Aryan X1</option>
+                    <option>Aryan Pro Max</option>
+                    <option>Aryan Lite</option>
+                    <option>Gaming Z</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+                <button type="button" onclick="submitContactForm()" class="btn primary-btn">Submit Message</button>
+                <button type="button" onclick="clearContactForm()" class="btn secondary-btn">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Aryan Mobile Shop. All rights reserved.</p>
+        <p>Designed by Aryan Labib | ID: 2331516</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

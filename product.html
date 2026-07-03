@@ -1,0 +1,107 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Mobile Shop | Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Name: Aryan Labib | ID: 2331516 -->
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Aryan<span>Mobile</span></a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Our Mobile Phones</h1>
+
+            <p>
+                Aryan Mobile Shop offers different types of smartphones for different types of users.
+                Customers can choose phones for photography, gaming, online classes, business work, and daily communication.
+            </p>
+
+            <p>
+                The products shown below are sample products for this website project.
+                Each phone includes price, features, and an Add to Cart button that uses JavaScript.
+            </p>
+
+            <p>
+                This product section uses the CSS display grid property to create a clean and responsive product layout.
+            </p>
+        </section>
+
+        <section class="section">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="iphone.png" alt="Iphone 17 Pro Max">
+                    <h2>Iphone 17 Pro Max</h2>
+                    <p class="price">৳1,42,000</p>
+                    <p>128GB storage, 50MP camera, 5000mAh battery, and smooth display.</p>
+                    <button onclick="addToCart('Iphone 17 Pro Max')" class="btn primary-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="samsung.jpg" alt="Samsung Galaxy S25 Ultra">
+                    <h2>Samsung Galaxy S25 Ultra</h2>
+                    <p class="price">৳1,30,000</p>
+                    <p>Premium phone with AMOLED display, 256GB storage, and fast charging.</p>
+                    <button onclick="addToCart('Samsung Galaxy S25 Ultra')" class="btn primary-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="xiaomi.jpg" alt="Xiaomi 14 Ultra">
+                    <h2>Xiaomi 14 Ultra</h2>
+                    <p class="price">৳88,000</p>
+                    <p>Affordable smartphone with good battery backup and reliable performance.</p>
+                    <button onclick="addToCart('Xiaomi 14 Ultra')" class="btn primary-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="oppo.png" alt="Oppo A9">
+                    <h2>Oppo A9</h2>
+                    <p class="price">৳35,000</p>
+                    <p>Large display phone suitable for online classes, office work, and movies.</p>
+                    <button onclick="addToCart('Oppo A9')" class="btn primary-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="vivo.jpg" alt="Vivo T4">
+                    <h2>Vivo T4</h2>
+                    <p class="price">৳36,500</p>
+                    <p>Photography-focused smartphone with night mode and sharp video recording.</p>
+                    <button onclick="addToCart('Vivo T4')" class="btn primary-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="nokia.jpg" alt="Nokia Lumia">
+                    <h2>Nokia Lumia</h2>
+                    <p class="price">৳52,000</p>
+                    <p>Powerful gaming phone with fast processor and high refresh rate display.</p>
+                    <button onclick="addToCart('Nokia Lumia')" class="btn primary-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Aryan Mobile Shop. All rights reserved.</p>
+        <p>Designed by Aryan Labib | ID: 2331516</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
